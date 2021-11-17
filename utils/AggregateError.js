@@ -8,6 +8,7 @@ function aggregateErrorOne() {
             console.log(e.message);                   // "Hello"
             console.log(e.name);                      // "AggregateError"
             console.log(e.errors);                    // [ Error: "some error" ]
+            console.log(e.stack);
         }
     }
 }

@@ -1,4 +1,4 @@
-const errors = require("./utils/SyntaxError");
+const errors = require("./utils/Error");
 
 
-errors.syntaxerror;
+errors.Error;
